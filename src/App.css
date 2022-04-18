@@ -80,6 +80,7 @@ p {
   display: flex;
   flex-direction: column;
 }
+
 .box {
   background: none;
   display: block;
