@@ -9,8 +9,8 @@ function SignIn() {
         auth.signInWithPopup(provider);
     }
 
-    return <div>
-        <Button onClick={signInWithGoogle}>グーグルでログインする</Button>
+    return <div className="box">
+        <Button onClick={signInWithGoogle}>GOOGLEログイン</Button>
     </div>;
 }
 
